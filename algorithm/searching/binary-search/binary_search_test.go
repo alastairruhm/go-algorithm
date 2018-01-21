@@ -14,6 +14,7 @@ func TestBinarySearch(t *testing.T) {
 	}{
 		{[]int{1, 2, 3, 4, 5}, 3, 2},
 		{[]int{1, 2, 3, 4, 5}, 6, -1},
+		{[]int{1, 2, 3, 4, 5}, 5, 4},
 	}
 	// Only pass t into top-level Convey calls
 	Convey("binary search", t, func() {
