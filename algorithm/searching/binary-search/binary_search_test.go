@@ -1,4 +1,4 @@
-package bs
+package binarysearch
 
 import (
 	"testing"

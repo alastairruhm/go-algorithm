@@ -1,4 +1,4 @@
-package bs
+package binarysearch
 
 // BinarySearch ...
 func BinarySearch(sortedArray []int, item int) int {
